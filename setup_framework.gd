@@ -24,8 +24,8 @@ var script_directories: Array = ["autoloads", "items", "characters", "ui"]
 func _run() -> void:
 	var dir = DirAccess.open("res://")
 	# Setting height and width of the window to be a normal size
-	ProjectSettings.set_setting("display/window/size/viewport_width", 1280)
-	ProjectSettings.set_setting("display/window/size/viewport_height", 720)
+	ProjectSettings.set_setting("display/window/size/viewport_width", 640)
+	ProjectSettings.set_setting("display/window/size/viewport_height", 360)
 	# changes rendering to nearest for pixel art projects
 	ProjectSettings.set_setting("rendering/textures/canvas_textures/default_texture_filter", 0)
 	# set window to viewport stretch mode, keep_width aspect, and integer scale mode
