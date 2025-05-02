@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://wubjgubl8eag"]
+
+[ext_resource type="Script" uid="uid://bvi3likg7u0at" path="res://project_starter.gd" id="1_20nvt"]
+
+[node name="ProjectStarter" type="EditorPlugin"]
+script = ExtResource("1_20nvt")
+instructions = "The below settings will allow you to customize your experience without having to open the accompanying project_starter.gd.
+Display Window Size is for picking your base resolution. Commonly this is 320x180 or 640x360 but I have added in 720 and 1080.
+Directories are the common directories I create when starting a project. You can edit the list of directories and even add more if you want.
+Scene directories and Script directors are used to create sub directories for organizing your project. You can definitely add more if you so desire
+and if you have some better naming conventions let me know. Especially for levels. I keep bouncing between levels, maps, and just calling it scenes. 
+But I hate that it would the be scenes/scenes.
+"
+display_window_size = 2
